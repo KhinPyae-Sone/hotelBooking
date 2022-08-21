@@ -11,7 +11,7 @@ const DrawerCustomComponent=(props)=>{
 
     const [showDialog,setShowDialog]=useState(false)
     const userName=(state=>state.USERINFO)
-    const dispatch=useDispatch()
+   const dispatch=useDispatch()
     const handleSignOut=()=>{
         auth
         .signOut()
